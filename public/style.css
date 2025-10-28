@@ -1,0 +1,51 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Container for text */
+div:first-of-type {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #34495e;
+  font-weight: 400;
+}
+
+/* Image styling */
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
