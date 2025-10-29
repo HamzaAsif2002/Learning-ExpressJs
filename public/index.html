@@ -3,16 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <h1>Hi never lose hope</h1>
-      <h2>we are with you</h2>
-    </div>
-    <div>
-      <img src="pic.jpg" />
-    </div>
+    <form action="/contact" method="post">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label for="textarea"> Text Area </label>
+        <input type="text" name="textarea" id="textarea" />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
